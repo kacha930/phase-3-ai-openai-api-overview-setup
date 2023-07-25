@@ -120,7 +120,7 @@ accidentally committed to the Git history and pushed to GitHub.
 
 Let’s test out the environment by making our first request to the OpenAI API. We
 will add the secret API key you generated earlier to our `.env` file and then
-write code to make the request in the `[ai.py](http://ai.py)` file.
+write code to make the request in the `ai.py` file.
 
 Open up the `.env` file and paste in your secret API key as the value of the
 `OPENAI_API_KEY`.
@@ -129,7 +129,7 @@ Open up the `.env` file and paste in your secret API key as the value of the
 OPENAI_API_KEY=YOUR_SECRET_API_KEY_HERE
 ```
 
-Now open up the `[ai.py](http://ai.py)` file and paste in the following code:
+Now open up the `ai.py` file and paste in the following code:
 
 ```python
 import os
@@ -153,7 +153,7 @@ except Exception as e:
     print(e)
 ```
 
-Now enter your `pipenv` environment and run the `[ai.py](http://ai.py)` file:
+Now enter your `pipenv` environment and run the `ai.py` file:
 
 ```bash
 # start pipenv environment
